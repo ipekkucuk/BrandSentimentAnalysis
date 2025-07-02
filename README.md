@@ -33,6 +33,72 @@ The goal is to develop a context-sensitive sentiment analysis model tailored to 
 
 Comments were manually labeled as positive or negative. Neutral comments and irrelevant aspects (shipping, seller behavior) were excluded for clarity.
 
+---
+
+## 📂 Notebooks
+
+- **`datacleaning_labeling.ipynb`**: Raw dataset is cleaned (noise removal, typo correction, stopwords) and manually labeled for sentiment classification.
+- **`custommodel_pretrained.ipynb`**: Trains a custom Logistic Regression model and uses the cleaned dataset to generate sentiment labels with a pre-trained BERT model and evaluates its performance.
+- **`custommodelvspretrained.ipynb`**: Compares the custom Logistic Regression model with the pre-trained BERT model on the same dataset.
+- **`mlcomparision.ipynb`**: Compares multiple machine learning models (SVM, Random Forest, XGBoost) using TF-IDF features.
+- **`visualisation.ipynb`**: Generates visualizations to interpret the sentiment results by category, brand, and rating alignment.
+
+---
+
+## 📸 Images
+
+Below are some visualizations generated during the analysis:
+
+### Sentiment per Category
+![Sentiment per Category](images/1.png)
+
+### Sentiment per Brand
+![Sentiment per Brand](images/2.png)
+
+### Sentiment vs Product Rating (Scatter Plot)
+![Sentiment vs Product Rating](images/download%20(1).png)
+
+### Alignment Between Ratings and Sentiment
+![Alignment Between Ratings and Sentiment](images/AlignmentBetweenRatingsandSentiment.png)
+
+### Monthly Sentiment Distribution
+![Monthly Sentiment Distribution](images/MonthlySentimentDistribution.png)
+
+### Monthly Total Reviews
+![Monthly Total Reviews](images/MonthlyTotalReviews.png)
+
+### Negative Reviews in November
+![Negative Reviews in November](images/NegRevonNov.png)
+
+### Positive Reviews in November
+![Positive Reviews in November](images/PosReviewsinNov.png)
+
+### Percentage of Positive and Negative
+![Percentage of Positive and Negative](images/PercentageofPosandNeg.png)
+
+### Sentiment Distribution by Brand & Product Type
+![Sentiment Distribution by Brand & Product Type](images/SentimentDistributionbyBrand&ProductType.png)
+
+### Sentiment Distribution by Category and Company
+![Sentiment Distribution by Category and Company](images/SentimentDistributionbyCategoryandCompany.png)
+
+### Top 5 Brands with Negative Reviews
+![Top 5 Brands Negative](images/Top5Brandsnegative.png)
+
+### Top 5 Brands with Positive Reviews
+![Top 5 Brands Positive](images/Top5Brandspositive.png)
+
+### Total Number of Reviews by Category
+![Total Number of Reviews by Category](images/TotalNumberofReviewsbyCategory.png)
+
+### Word Cloud - Negative Reviews
+![Word Cloud Negative](images/Wordcloudnegative.png)
+
+### Word Cloud - Positive Reviews
+![Word Cloud Positive](images/Wordcloudpos.png)
+
+---
+
 ## Conclusion
 
 This project shows how a domain-specific, linguistically adapted model can improve sentiment analysis in agglutinative languages like Turkish, especially for local e-commerce contexts.
@@ -40,4 +106,3 @@ This project shows how a domain-specific, linguistically adapted model can impro
 ---
 
 **Keywords:** Sentiment Analysis, Turkish NLP, TF-IDF, Logistic Regression, BERT, Machine Learning, Brand Perception.
-
