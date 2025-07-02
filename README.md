@@ -41,7 +41,7 @@ Comments were manually labeled as positive or negative. Neutral comments and irr
 - **`custommodel_pretrained.ipynb`**: Trains a custom Logistic Regression model and uses the cleaned dataset to generate sentiment labels with a pre-trained BERT model and evaluates its performance.
 - **`custommodelvspretrained.ipynb`**: Compares the custom Logistic Regression model with the pre-trained BERT model on the same dataset.
 - **`mlcomparision.ipynb`**: Compares multiple machine learning models (SVM, Random Forest, XGBoost) using TF-IDF features.
-- **`visualisation.ipynb`**: Generates visualizations to interpret the sentiment results by category, brand, and rating alignment.
+- **`visualization.ipynb`**: Generates visualizations to interpret the sentiment results by category, brand, and rating alignment.
 
 ---
 
